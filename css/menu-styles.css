@@ -1,0 +1,53 @@
+.main-menu-area{
+  text-align: center;
+  margin-top: 2%;
+}
+
+.wrapUp-pic-name-description{
+  display: inline-block;
+  margin: 0 1% 4%;
+  width: 30%;
+}
+
+#main-menu-big-text{
+  margin-bottom: 2%;
+}
+
+.every-course-heading{
+  margin-bottom: 2%;
+}
+
+.big-fonts-catagory-name{
+    font-size: 2rem;
+}
+
+.food-name{
+  font-size: 1.5rem;
+}
+
+/*.description{
+  width: 30%;
+}*/
+
+.footer-into-content-wrap{
+  text-align: center;
+  margin-top: 2%;
+}
+
+.footer-social-media-handle{
+  padding-right: 1.5%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.nav-item :hover{
+  	border-bottom: 1px solid #000;
+  	transition: 0.4s;
+  }
