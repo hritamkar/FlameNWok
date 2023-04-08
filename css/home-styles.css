@@ -1,6 +1,4 @@
 body{
-  padding: 0px;
-  margin: 0px;
   list-style: none;
   font-family: 'Comfortaa', cursive;
 	background-color: #ffff;
@@ -48,9 +46,6 @@ body{
     font-size: 75px;
     font-weight: 900px;
   }
-.about-us-text-box{
-  padding-bottom: 20%;
-}
 h5{
   margin-top: 175px;
 }
@@ -82,21 +77,24 @@ margin:auto 1% auto 1%;
   padding-top: 400px;
 }
 .last-footer-div{
-  background-color:#e09743;
-padding: 50px 0 20px;
+  background-color:#ffb366;
+    padding-bottom:2%;
 }
 .footer-into-content-wrap{
       text-align: center;
       margin-top: 2%;
 }
 .no{
-  color: red;
+  color:#006900;
 }
 a{
   text-decoration: none;
 }
 .footer-social-media-handle{
       padding-right: 1.5%;
+}
+.privacy{
+  color:#000000;
 }
 
 .fa {
