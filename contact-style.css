@@ -58,34 +58,26 @@ main a {
     font-size: 20px;
     color: rgb(97, 97, 97);
 }
-
-.last-footer-div {
-    background-color: #e09743;
-    padding: 50px 0 20px;
+.last-footer-div{
+  background-color: #e09743;
+padding: 50px 0 20px;
+}
+.footer-into-content-wrap{
+      text-align: center;
+      margin-top: 2%;
+}
+.no{
+  color: red;
 }
 
-.footer-into-content-wrap {
-    text-align: center;
-    margin-top: 2%;
+a{
+  text-decoration: none;
 }
 
-.no {
-    color: red;
+.footer-webpage-name{
+  margin-top: 1%;
 }
 
-footer a {
-    text-decoration: none;
-}
-
-.footer-social-media-handle {
-    padding-right: 1.5%;
-}
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+.footer-social-media-handle{
+      margin-bottom: 1%;
 }
