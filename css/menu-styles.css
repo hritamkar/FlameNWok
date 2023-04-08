@@ -1,3 +1,6 @@
+body{
+  font-family: 'Comfortaa', cursive;
+}
 .main-menu-area{
   text-align: center;
   margin-top: 2%;
@@ -11,23 +14,25 @@
 
 #main-menu-big-text{
   margin-bottom: 2%;
+  margin-top: 100px;
 }
 
 .every-course-heading{
-  margin-bottom: 2%;
+  width: 70%;
+  margin: auto auto 2% auto;
 }
 
 .big-fonts-catagory-name{
     font-size: 2rem;
 }
 
+.wrap-up-items{
+  margin: auto 3% auto 3%;
+}
+
 .food-name{
   font-size: 1.5rem;
 }
-
-/*.description{
-  width: 30%;
-}*/
 
 .footer-into-content-wrap{
   text-align: center;
@@ -50,4 +55,33 @@
 .nav-item :hover{
   	border-bottom: 1px solid #000;
   	transition: 0.4s;
-  }
+}
+
+.wrapUp-pic-name-description{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.wrapUp-pic-name-description:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.picOfFood-each{
+  width: 10%;
+  height: 10%;
+}
+
+.last-footer-div{
+  background-color:#40bf80;
+padding: 50px 0 20px;
+}
+.footer-into-content-wrap{
+      text-align: center;
+      margin-top: 2%;
+}
+.no{
+  color: red;
+}
+.footer-social-media-handle{
+      padding-right: 1.5%;
+}
