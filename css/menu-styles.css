@@ -71,6 +71,14 @@ body{
   height: 10%;
 }
 
+#Qr-code-director{
+  margin-bottom: 3%;
+}
+
+.btn{
+  margin-top: 3%;
+}
+
 .last-footer-div{
   background-color:#40bf80;
 padding: 50px 0 20px;
@@ -82,6 +90,15 @@ padding: 50px 0 20px;
 .no{
   color: red;
 }
+
+a{
+  text-decoration: none;
+}
+
+.footer-webpage-name{
+  margin-top: 1%;
+}
+
 .footer-social-media-handle{
-      padding-right: 1.5%;
+      margin-bottom: 1%;
 }
