@@ -1,0 +1,58 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-family: 'Comfortaa', cursive;
+    background-color: #ffff;
+
+}
+
+.nav-item :hover {
+    border-bottom: 1px solid #000;
+    transition: 0.4s;
+}
+#main-contact{
+  text-decoration: none;
+}
+
+main {
+    text-align: center;
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.feedback-text  {
+    font-size: 20px;
+    color: rgb(97, 97, 97);
+}
+
+.last-footer-div{
+  background-color:#ffb366;
+    padding-bottom:2%;
+}
+.footer-into-content-wrap{
+      text-align: center;
+      margin-top: 2%;
+}
+.no{
+  color:#006900;
+}
+a{
+  text-decoration: none;
+}
+.footer-social-media-handle{
+      padding-right: 1.5%;
+}
+.privacy{
+  color:#000000;
+}
+
+.fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+}
