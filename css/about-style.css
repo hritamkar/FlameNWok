@@ -10,7 +10,7 @@
   justify-content: space-around;
   align-items: center;
 } 
-.menu :hover{
+.nav-item:hover{
   	border-bottom: 1px solid #000;
   	transition: 0.4s;
   }
