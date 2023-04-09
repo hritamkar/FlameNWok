@@ -186,6 +186,7 @@
 
 /*------------------------FOOTER------------------------------*/
 
+
 .footer-into-content-wrap {
   text-align: center;
   margin-top: 2%;
@@ -237,6 +238,30 @@ a {
   .footer-copywrite-claim {
     font-size: 12px;
   }
+
+.last-footer-div{
+  background-color: #e09743;
+padding: 50px 0 20px;
+}
+.footer-into-content-wrap{
+      text-align: center;
+      margin-top: 2%;
+}
+.no{
+  color: red;
+}
+
+a{
+  text-decoration: none;
+}
+
+.footer-webpage-name{
+  margin-top: 1%;
+}
+
+.footer-social-media-handle{
+      margin-bottom: 1%;
+
 }
 /*-----------------------------------------------------------*/
 
