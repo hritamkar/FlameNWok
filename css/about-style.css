@@ -182,33 +182,26 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.347),rgba(0, 0, 0, 0.1)), url(
 /*------------------------FOOTER------------------------------*/
 
 .last-footer-div{
-  background-color:#ffb366;
-    padding-bottom:2%;
+  background-color: #e09743;
+padding: 50px 0 20px;
 }
 .footer-into-content-wrap{
       text-align: center;
       margin-top: 2%;
 }
 .no{
-  color:#006900;
+  color: red;
 }
+
 a{
   text-decoration: none;
 }
+
+.footer-webpage-name{
+  margin-top: 1%;
+}
+
 .footer-social-media-handle{
-      padding-right: 1.5%;
+      margin-bottom: 1%;
 }
-.privacy{
-  color:#000000;
-}
-
-.fa {
-      padding: 20px;
-      font-size: 30px;
-      width: 30px;
-      text-align: center;
-      text-decoration: none;
-      border-radius: 50%;
-}
-
 /*-----------------------------------------------------------*/
