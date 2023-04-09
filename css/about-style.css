@@ -184,7 +184,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.347),rgba(0, 0, 0, 0.1)), url(
 .last-footer-div{
 height: 300px;
 width: 100%;
-background-color: #e09743;
+background-color: rgb(255, 255, 255);
 }
 .last-footer{
   height: 50px;
@@ -195,16 +195,16 @@ background-color: #e09743;
   width: 100%;
 }
 .footer-social-media-handle{
-  height: 50px;
+  height: 90px;
   width: 30%;
   margin-left: 35%;
   text-align: center;
 }
 .footer-webpage-name{
   width: auto;
-  height: 70px;
+  height: 150px;
   color: black;
-  font-size: 15px;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 7px;
   text-align: center;
@@ -216,10 +216,38 @@ background-color: #e09743;
   letter-spacing: 7px;
   text-align: center;
 }
-
+.privacy{
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  text-decoration: none;
+}
+.privacy:hover{
+  color: #c90000;
+}
+.no{
+  color: rgb(77, 153, 0);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  text-decoration: none;
+}
 @media screen and (max-width:480px){
   .footer-webpage-name{
-    font-size: 10px;
+    font-size: 15px;
+  }
+  .footer-social-media-handle{
+    width: 100%;
+    margin-left: 0%;
+  }
+  .privacy{
+    font-size: 15px;
+  }
+  .footer-copywrite-claim{
+    font-size: 12px;
   }
 }
 /*-----------------------------------------------------------*/
