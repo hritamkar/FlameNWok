@@ -1,58 +1,97 @@
-body {
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-    font-family: 'Comfortaa', cursive;
-    background-color: #ffff;
+/*  Contact-us FULL DONE */
 
+body {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  font-family: "Comfortaa", cursive;
+  background-color: #ffff;
 }
 
 .nav-item :hover {
-    border-bottom: 1px solid #000;
-    transition: 0.4s;
+  border-bottom: 1px solid #000;
+  transition: 0.4s;
 }
-#main-contact{
+#main-contact {
   text-decoration: none;
+}
+.navbar {
+  background: linear-gradient(to bottom, #ff9500, #ffbc5e);
+}
+.navbar-brand img {
+  height: 70px;
+  width: 70px;
 }
 
 main {
-    text-align: center;
-    position: relative;
-    padding-top: 150px;
-    padding-bottom: 50px;
+  text-align: center;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 50px;
 }
 
-.feedback-text  {
-    font-size: 20px;
-    color: rgb(97, 97, 97);
+.feedback-text {
+  font-size: 20px;
+  color: rgb(97, 97, 97);
 }
 
-.last-footer-div{
-  background-color:#ffb366;
-    padding-bottom:2%;
+.footer-into-content-wrap {
+  text-align: center;
+  margin-top: 2%;
 }
-.footer-into-content-wrap{
-      text-align: center;
-      margin-top: 2%;
+.last-footer-div {
+  background: linear-gradient(to bottom, #ff9500, #ffbc5e);
+  padding-bottom: 2px;
+  margin-bottom: -100px;
+  font-size: 17px;
 }
-.no{
-  color:#006900;
+.no {
+  font-size: 25px;
+  color: #006900;
 }
-a{
-  text-decoration: none;
+a {
+  color: white;
 }
-.footer-social-media-handle{
-      padding-right: 1.5%;
+.footer-webpage-name a {
+  font-size: 18px;
 }
-.privacy{
-  color:#000000;
+.footer-social-media-handle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.privacy {
+  color: #000000;
 }
 
 .fa {
-      padding: 20px;
-      font-size: 30px;
-      width: 30px;
-      text-align: center;
-      text-decoration: none;
-      border-radius: 50%;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.footer-webpage-name a {
+  text-decoration: none;
+}
+
+.hours-text h4 {
+  margin-top: 15px;
+}
+
+/* scroll bar */
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: #555;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #ff9500, #ffbc5e);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
 }

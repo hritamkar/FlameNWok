@@ -1,44 +1,48 @@
-body{
-  font-family: 'Comfortaa', cursive;
+body {
+  font-family: "Comfortaa", cursive;
 }
-.main-menu-area{
+.main-menu-area {
   text-align: center;
   margin-top: 2%;
 }
 
-.wrapUp-pic-name-description{
+.wrapUp-pic-name-description {
   display: inline-block;
   margin: 0 1% 4%;
   width: 30%;
 }
 
-#main-menu-big-text{
+#main-menu-big-text {
   margin-bottom: 2%;
   margin-top: 100px;
 }
 
-.every-course-heading{
+.every-course-heading {
   width: 70%;
   margin: auto auto 2% auto;
 }
 
-.big-fonts-catagory-name{
-    font-size: 2rem;
+.big-fonts-catagory-name {
+  font-size: 2rem;
 }
 
+
+.wrap-up-items {
+  margin: auto 3% auto 3%;
 .wrap-up-items{
   margin: auto 3%;
+
 }
 
-.food-name{
+.food-name {
   font-size: 1.5rem;
 }
 
-.footer-into-content-wrap{
+.footer-into-content-wrap {
   text-align: center;
 }
 
-.footer-social-media-handle{
+.footer-social-media-handle {
   padding-right: 1.5%;
 }
 
@@ -50,6 +54,11 @@ body{
   text-decoration: none;
   border-radius: 50%;
 }
+
+
+.nav-item :hover {
+  border-bottom: 1px solid #000;
+  transition: 0.4s;
 
 .nav-item{
   display: block;
@@ -74,29 +83,42 @@ body{
   width: 100%;
   height: 1px;
   background-color: #000;
+
 }
 
-.wrapUp-pic-name-description{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.wrapUp-pic-name-description {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
 
-.wrapUp-pic-name-description:hover{
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.wrapUp-pic-name-description:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.picOfFood-each{
+.picOfFood-each {
   width: 10%;
   height: 10%;
 }
 
-#Qr-code-director{
+#Qr-code-director {
   margin-bottom: 3%;
 }
 
-.btn{
+.btn {
   margin-top: 3%;
 }
+
+
+.last-footer-div {
+  background-color: #e09743;
+  padding: 50px 0 20px;
+}
+.footer-into-content-wrap {
+  text-align: center;
+  margin-top: 2%;
+}
+.no {
+  color: red;
 
 .last-footer-div{
   background-color: #ffb366;
@@ -107,15 +129,42 @@ body{
 }
 .no{
   color:#006900;
+
 }
 
-a{
+a {
   text-decoration: none;
 }
+
+
+.footer-webpage-name {
+  margin-top: 1%;
+}
+
+.footer-social-media-handle {
+  margin-bottom: 1%;
+}
+
+/* scroll bar */
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: #555;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #ff9500, #ffbc5e);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
 
 .footer-social-media-handle{
       padding-right: 1.5%;
 }
 .privacy{
   color:#000000;
+
 }
