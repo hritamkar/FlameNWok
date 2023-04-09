@@ -184,7 +184,8 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.347),rgba(0, 0, 0, 0.1)), url(
 .last-footer-div{
 height: 300px;
 width: 100%;
-background-color: rgb(255, 255, 255);
+margin-top: 20px;
+background-color: #e09743;
 }
 .last-footer{
   height: 50px;
