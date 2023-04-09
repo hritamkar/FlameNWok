@@ -124,3 +124,19 @@ a {
 .footer-webpage-name a {
   text-decoration: none;
 }
+
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: #555;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #ff9500, #ffbc5e);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
