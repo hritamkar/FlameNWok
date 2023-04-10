@@ -64,6 +64,13 @@ body{
   font-family: "Comfortaa", cursive;
   color: #ffff;
 }
+.about-us-text-area{
+    width: 60%;
+  margin: 10% auto 10% auto;
+  }
+  .top-home-area{
+    color: #ffff;
+  }
   .text{
     color:#ffff;
     font-size: 75px;
