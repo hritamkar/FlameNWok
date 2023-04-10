@@ -5,7 +5,7 @@ body {
   margin: 0;
   list-style: none;
   font-family: "Comfortaa", cursive;
-  background-color: transparent;
+  background-color: #ffff;
 }
 .back-video {
   position: fixed;
