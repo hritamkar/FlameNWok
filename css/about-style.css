@@ -1,6 +1,9 @@
 /*------------------------NAV BAR------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Ubuntu:wght@300&display=swap");
 
+body {
+  font-family: "Comfortaa", cursive;
+}
 .top {
   width: 100%;
   height: 100vh;
