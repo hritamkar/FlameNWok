@@ -27,7 +27,7 @@ body{
   }
 
   .navbar {
-    background: linear-gradient(to bottom, #ff9500, #ffbc5e);
+    background: rgba(255, 255, 255);
 
   }
   .navbar-brand img {
@@ -106,7 +106,7 @@ margin:auto 1% auto 1%;
   padding-top: 400px;
 }
 .last-footer-div {
-  background: linear-gradient(to bottom, #ff9500, #ffbc5e);
+  background:rgba(255, 255, 255);
   padding-bottom: 2px;
   margin-bottom: -100px;
 }
