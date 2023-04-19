@@ -1,5 +1,6 @@
 /*------------------------NAV BAR------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Ubuntu:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Assistant:wght@500&family=Ubuntu:wght@300&display=swap');
 
 body {
   font-family: "Comfortaa", cursive;
@@ -16,7 +17,7 @@ body {
   align-items: center;
 }
 .navbar {
-      background:rgba(255, 255, 255);
+  background: linear-gradient(84deg, #ffffff, #ffebbf);
   }
   .navbar-brand img {
     height: 70px;
@@ -103,7 +104,7 @@ body {
   height: 100px;
   width: 100%;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Alice', serif;
   color: #000000;
 }
 .main-about-div {
@@ -135,9 +136,14 @@ body {
   width: 34%;
   height: 250px;
   float: left;
+  transition: transform .2s;
+} 
+
+.float-pic-left:hover{
+  transform: scale(1.1);
 }
 .float-info-right {
-  width: 30%;
+  width: 55%;
   float: right;
 }
 
@@ -147,7 +153,12 @@ body {
   background-image: url(../images/img_2.png);
   float: right;
   margin-right: -3%;
+  transition: transform .2s;
 }
+#about-element-04:hover{
+  transform: scale(1.1);
+}
+
 
 #about-element-03 {
   width: 60%;
@@ -192,7 +203,7 @@ body {
   }
   .float-info-right {
     width: 100%;
-    margin-top: 5px;
+    margin-top: 25px;
   }
   .reverse {
     display: flex;
@@ -206,7 +217,7 @@ body {
   #about-element-03 {
     width: 100%;
     margin-left: 0%;
-    margin-top: 5px;
+    margin-top: 25px;
   }
 }
 /*-----------------------------------------------------------*/
@@ -219,7 +230,7 @@ body {
   margin-top: 2%;
 }
 .last-footer-div {
-  background: rgba(255, 255, 255);
+  background: linear-gradient(180deg, #f1e6c5, #ffd062);
   padding-bottom: 2px;
   margin-bottom: -100px;
   font-size: 17px;
@@ -268,7 +279,7 @@ a {
 
 .last-footer-div{
   background-color: #e09743;
-padding: 50px 0 20px;
+padding: 5px 0 20px;
 }
 .footer-into-content-wrap{
       text-align: center;
