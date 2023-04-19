@@ -5,7 +5,7 @@ body {
   margin: 0px;
   list-style: none;
   font-family: "Comfortaa", cursive;
-  background-color: #d9d9d9;
+  /* background-color: #d9d9d9; */
 }
 
 .nav-item {
@@ -34,7 +34,7 @@ body {
   text-decoration: none;
 }
 .navbar {
-  background: rgba(255, 255, 255);
+  background: linear-gradient(84deg, #ffffff, #ffebbf);
 }
 .navbar-brand img {
   height: 70px;
@@ -58,7 +58,7 @@ main {
   margin-top: 2%;
 }
 .last-footer-div {
-  background: rgba(255, 255, 255);
+  background: linear-gradient(180deg, #f1e6c5, #ffd062);
   padding-bottom: 2px;
   margin-bottom: -100px;
   font-size: 17px;
@@ -94,7 +94,7 @@ a {
 }
 
 .hours-text h4 {
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 /* scroll bar */
@@ -112,4 +112,11 @@ a {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #ffffff;
+}
+
+@media screen and (max-width: 480px) {
+  .last-footer-div {
+    font-size: 15px;
+    padding: 0 10px 2px 10px;
+  }
 }

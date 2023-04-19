@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Assistant:wght@500&family=Ubuntu:wght@300&display=swap");
+
 body {
   font-family: "Comfortaa", cursive;
-  background-color: #e6e6e6;
+  /* background-color: #e6e6e6; */
 }
 .navbar {
-  background: rgb(255, 255, 255);
+  background: linear-gradient(84deg, #ffffff, #ffebbf);
 }
 .navbar-brand img {
   height: 70px;
@@ -25,6 +27,7 @@ body {
   font-size: 10px;
   margin-bottom: 2%;
   margin-top: 100px;
+  font-family: "Alice", serif;
 }
 
 .every-course-heading {
@@ -103,6 +106,7 @@ av-item :hover {
 }
 .picOfFood-each {
   background-size: cover;
+  transition: transform 0.2s;
 }
 .picOfFood-each img {
   width: 100%;
@@ -112,20 +116,27 @@ av-item :hover {
   margin-top: 10px;
 }
 
+.picOfFood-each:hover {
+  transform: scale(1.1);
+}
+
 #Qr-code-director {
   margin-bottom: 3%;
 }
 
-.img_qr{
-  margin-right: 2%
+.img_qr {
+  margin-right: 2%;
 }
 
 .btn {
   margin-top: 3%;
 }
+.description-food-each {
+  padding: 10px;
+}
 
 .last-footer-div {
-  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, #f1e6c5, #ffd062);
   padding-bottom: 2px;
   margin-bottom: -100px;
 }
@@ -197,7 +208,7 @@ a.fa {
   .wrapUp-pic-name-description {
     width: 100%;
   }
-  .qr_img{
+  .qr_img {
     display: none;
-  }  
+  }
 }
