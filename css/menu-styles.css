@@ -2,7 +2,7 @@ body {
   font-family: "Comfortaa", cursive;
 }
 .navbar {
-  background: rgba(255, 255, 255);
+  background: rgb(255, 255, 255);
 }
 .navbar-brand img {
   height: 70px;
@@ -124,7 +124,7 @@ av-item :hover {
 }
 
 .last-footer-div {
-  background: rgba(255, 255, 255);
+  background: rgb(255, 255, 255);
   padding-bottom: 2px;
   margin-bottom: -100px;
 }
