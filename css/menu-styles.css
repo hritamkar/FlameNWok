@@ -197,4 +197,7 @@ a.fa {
   .wrapUp-pic-name-description {
     width: 100%;
   }
+  .qr_img{
+    display: none;
+  }  
 }
