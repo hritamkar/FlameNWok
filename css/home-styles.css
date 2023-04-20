@@ -1,7 +1,7 @@
 body {
   list-style: none;
   font-family: "Comfortaa", cursive;
-  background-color: #d9d9d9;
+  background-color: #ffffff;
 }
 .back-video {
   width: 100%;
@@ -26,7 +26,6 @@ body {
 
 .text {
   margin: auto;
-  color: #ffff;
   font-size: 75px;
   font-weight: 900px;
   width: 90%;
