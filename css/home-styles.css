@@ -1,35 +1,24 @@
 body {
   list-style: none;
   font-family: "Comfortaa", cursive;
-  background-color: #d9d9d9;
+  background-color: #ffffff;
 }
 .back-video {
   width: 100%;
   z-index: -1 ;
 }
-/* @media (min-aspect-ratio: 16/9) {
-  .back-video {
-    width: 100%;
-    height: auto;
-  }
-}
-@media (max-aspect-ratio: 16/9) {
-  .back-video {
-    width: auto;
-    height: 100%;
-  }
-} */
+
 .home-top-area{
   position: relative;
-  bottom: 400px;
+  bottom: 500px;
 }
 
 .text {
-  margin: auto;
-  color: #ffff;
+  margin: auto auto 3%;
   font-size: 75px;
   font-weight: 900px;
   width: 90%;
+  color: #ffffff;
 }
 
 .navbar {
@@ -66,7 +55,6 @@ body {
   width: 80%;
   margin: auto auto 5%;
   font-family: "Comfortaa", cursive;
-  color: #ffff;
 }
 
 .abt-us-text{
@@ -96,12 +84,9 @@ body {
 .btn {
   margin: auto 1% auto 1%;
 }
-.about-us-area {
-  color: #ffff;
-}
+
 .review-area {
   margin-top: 10%;
-  color: #ffff;
 }
 .main-home-area {
   text-align: center;
@@ -171,12 +156,14 @@ a {
 
 @media screen and (max-width: 600px) {
   .back-video{
-    margin-top: 20%;
+    margin-top: 25%;
     width: 100vw;
   }
   .text{
     font-size: 30px;
-    margin: 2%;
+    margin: auto;
+    color: #000;
+    margin-bottom: 5%;
   }
   .home-top-area{
     position: static;
