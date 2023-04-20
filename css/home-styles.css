@@ -102,6 +102,15 @@ h5 {
   position: relative;
   padding-top: 400px;
 }
+
+.screenshot{
+  height: 30vw;
+}
+
+.img-cont{
+  margin: 2% 5% auto;
+}
+
 .last-footer-div {
   background: linear-gradient(180deg, #f1e6c5, #ffd062);
   padding-bottom: 2px;
