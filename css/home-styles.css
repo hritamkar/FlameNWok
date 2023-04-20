@@ -65,7 +65,6 @@ body {
   width: 80%;
   margin: auto auto 5%;
   font-family: "Comfortaa", cursive;
-  color: #ffff;
 }
 
 .abt-us-text{
@@ -96,11 +95,9 @@ body {
   margin: auto 1% auto 1%;
 }
 .about-us-area {
-  color: #ffff;
 }
 .review-area {
   margin-top: 10%;
-  color: #ffff;
 }
 .main-home-area {
   text-align: center;
