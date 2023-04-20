@@ -1,18 +1,13 @@
-* {
-  box-sizing: border-box;
-}
 body {
   list-style: none;
   font-family: "Comfortaa", cursive;
-  background-color: #ffff;
+  background-color: #d9d9d9;
 }
 .back-video {
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: -1;
+  width: 100%;
+  z-index: -1 ;
 }
-@media (min-aspect-ratio: 16/9) {
+/* @media (min-aspect-ratio: 16/9) {
   .back-video {
     width: 100%;
     height: auto;
@@ -23,6 +18,18 @@ body {
     width: auto;
     height: 100%;
   }
+} */
+.home-top-area{
+  position: relative;
+  bottom: 400px;
+}
+
+.text {
+  margin: auto;
+  color: #ffff;
+  font-size: 75px;
+  font-weight: 900px;
+  width: 90%;
 }
 
 .navbar {
@@ -56,26 +63,24 @@ body {
   background-color: #000;
 }
 .featured-dish-details {
-  width: 50%;
-  margin: 20% auto 20% auto;
+  width: 80%;
+  margin: auto auto 5%;
   font-family: "Comfortaa", cursive;
   color: #ffff;
 }
+
+.abt-us-text{
+  margin-bottom: 3%;
+}
 .about-us-text-area {
   width: 60%;
-  margin: 10% auto 10% auto;
+  margin: auto;
 }
-.top-home-area {
-  color: #ffff;
+
+.about-us-text-box {
+  margin-top: 20%;
 }
-.text {
-  color: #ffff;
-  font-size: 75px;
-  font-weight: 900px;
-}
-h5 {
-  margin-top: 175px;
-}
+
 .img2 {
   float: left;
   margin-right: 75px;
@@ -95,12 +100,11 @@ h5 {
   color: #ffff;
 }
 .review-area {
+  margin-top: 10%;
   color: #ffff;
 }
 .main-home-area {
   text-align: center;
-  position: relative;
-  padding-top: 400px;
 }
 
 .screenshot{
@@ -163,4 +167,19 @@ a {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  .back-video{
+    margin-top: 20%;
+    width: 100vw;
+  }
+  .text{
+    font-size: 30px;
+    margin: 2%;
+  }
+  .home-top-area{
+    position: static;
+    margin-bottom: 7%;
+  }
 }
