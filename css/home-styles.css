@@ -21,11 +21,11 @@ body {
 } */
 .home-top-area{
   position: relative;
-  bottom: 400px;
+  bottom: 500px;
 }
 
 .text {
-  margin: auto;
+  margin: auto auto 3%;
   font-size: 75px;
   font-weight: 900px;
   width: 90%;
