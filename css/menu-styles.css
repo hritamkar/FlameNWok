@@ -17,12 +17,12 @@ body {
   width: 70px;
 }
 .nav-pills .nav-item .active {
-  border-bottom: 2px solid var( #FEA116);
+  border-bottom: 2px solid var( #fea116);
   text-decoration: none;
 
 }
 .text-body1{
-  color: #FEA116;
+  color: #fea116;
   font-weight: 700;
   font-size: 25px;
 }
