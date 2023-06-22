@@ -16,7 +16,7 @@ body {
   height: 70px;
   width: 70px;
 }
-.nav-pills .nav-item .active {
+.nav-pills .nav-item1 .active {
   border-bottom: 2px solid var( #fea116);
   text-decoration: none;
 
