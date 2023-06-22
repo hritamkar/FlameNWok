@@ -1,446 +1,773 @@
+
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/work.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="images/work.ico" type="image/x-icon" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Indie+Flower&family=Permanent+Marker&display=swap"
-    rel="stylesheet" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/menu-styles.css" />
-  <link href="css/style.css" rel="stylesheet">
-  <title>Flame N Wok</title>
-</head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Indie+Flower&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/menu-styles.css" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Flame N Wok</title>
+  </head>
 
-<body>
-  <!-- Nav bar -->
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="https://flamenwok.com">
-        <img
-          src="https://img1.wsimg.com/isteam/ip/30445548-408a-4f16-9e0f-d7e5159eb743/FLAME-N-OAK2.png/:/rs=w:200,h:200,cg:true,m/cr=w:200,h:200/qt=q:95"
-          alt="..." height="55" />
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item1">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+  <body>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="https://flamenwok.com">
+          <img
+            src="https://img1.wsimg.com/isteam/ip/30445548-408a-4f16-9e0f-d7e5159eb743/FLAME-N-OAK2.png/:/rs=w:200,h:200,cg:true,m/cr=w:200,h:200/qt=q:95"
+            alt="..."
+            height="55"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item1">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item1">
+              <a class="nav-link active" href="#">Menu</a>
+            </li>
+            <li class="nav-item1">
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
+            </li>
+            <li class="nav-item1">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- menu contents -->
+    <main class="main-menu-area" id="menu-area">
+      <!-- <div class="container-xxl py-5"> -->
+      <!-- <div class="container"> -->
+      <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <br /><br />
+        <h1 class="mb-5">Most Popular Items</h1>
+      </div>
+      <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+        <ul class="nav nav-pills d-inline-flex justify-content-center mb-5">
+          <li class="nav-item">
+            <a
+              class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active"
+              data-bs-toggle="pill"
+              href="#tab-1"
+            >
+              <div class="ps-3">
+                <h6 class="text-body1">Drinks</h6>
+              </div>
+            </a>
           </li>
-          <li class="nav-item1">
-            <a class="nav-link active" href="#">Menu</a>
+          <li class="nav-item">
+            <a
+              class="d-flex align-items-center text-start mx-3 ms-0 pb-3"
+              data-bs-toggle="pill"
+              href="#tab-2"
+            >
+              <div class="ps-3">
+                <h6 class="text-body1">Starters</h6>
+              </div>
+            </a>
           </li>
-          <li class="nav-item1">
-            <a class="nav-link" href="contact-us.html">Contact Us</a>
+          <li class="nav-item">
+            <a
+              class="d-flex align-items-center text-start mx-3 pb-3"
+              data-bs-toggle="pill"
+              href="#tab-3"
+            >
+              <div class="ps-3">
+                <h6 class="text-body1">Main course</h6>
+              </div>
+            </a>
           </li>
-          <li class="nav-item1">
-            <a class="nav-link" href="about.html">About Us</a>
+          <li class="nav-item">
+            <a
+              class="d-flex align-items-center text-start mx-3 me-0 pb-3"
+              data-bs-toggle="pill"
+              href="#tab-4"
+            >
+              <div class="ps-3">
+                <h6 class="text-body1">Side Dish</h6>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="d-flex align-items-center text-start mx-3 me-0 pb-3"
+              data-bs-toggle="pill"
+              href="#tab-5"
+            >
+              <div class="ps-3">
+                <h6 class="text-body1">Combo</h6>
+              </div>
+            </a>
           </li>
         </ul>
-      </div>
-    </div>
-  </nav>
- <!-- menu contents -->
- <main class="main-menu-area" id="menu-area">
-  <div class="container-xxl py-5">
-    <div class="container">
-        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-          <br><br>
-            <h1 class="mb-5">Most Popular Items</h1>
-        </div>
-        <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
-            <ul class="nav nav-pills d-inline-flex justify-content-center mb-5">
-              <li class="nav-item">
-                <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active " data-bs-toggle="pill" href="#tab-1">
-                    <div class="ps-3">
-                        <h6 class="text-body1">Drinks</h6>
-                    </div>
-                </a>
-            </li>
-                <li class="nav-item">
-                    <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3" data-bs-toggle="pill" href="#tab-2">
-                        <div class="ps-3">
-                            <h6 class="text-body1">Starters</h6>
-                        </div>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-3">
-                        <div class="ps-3">
-                            <h6 class="text-body1">Main course</h6>
-                        </div>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-4">
-                        <div class="ps-3">
-                          <h6 class="text-body1">Side Dish</h6>
-                        </div>
-                    </a>
-                </li>
-                <li class="nav-item">
-                  <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-5">
-                      <div class="ps-3">
-                          <h6 class="text-body1">Combo</h6>
-                      </div>
-                  </a>
-              </li>
-            </ul>
-            <div class="tab-content">
-              <div id="tab-1" class="tab-pane fade show p-0 active">
-                <div class="menu-catagory-division">
-                  <!--  course details -->
-                  <div class="every-course-heading">
-                    <h3 class="big-fonts-catagory-name">Drinks</h3>
-                    <p class="small-fonts-description-name">
-                      "Satisfy your cravings with our delicious combo meals"
+        <div class="tab-content">
+          <div id="tab-1" class="tab-pane fade show p-0 active">
+            <div class="menu-catagory-division">
+              <!--  course details -->
+              <div class="every-course-heading">
+                <h3 class="big-fonts-catagory-name">Drinks</h3>
+                <p class="small-fonts-description-name">
+                  "Satisfy your cravings with our delicious combo meals"
+                </p>
+              </div>
+              <!-- wrap up courses -->
+              <div class="wrap-up-items">
+                <!-- each items  -->
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_09.png"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">VEG</h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Delicious vegetarian noodles with spiced chilli chicken
+                      made for a tantalizing meal. Perfect for an easy weeknight
+                      dinner or lunch.
                     </p>
                   </div>
-                  <!-- wrap up courses -->
-                  <div class="wrap-up-items">
-                    <!-- each items  -->
-                    <div class="wrapUp-pic-name-description">
-                      <div class="picOfFood-each">
-                        <img src="images/m_image_09.png" alt="Delicious foods logo" />
-                      </div>
-                      <div class="food-name-each">
-                        <h2 class="food-name">VEG</h2>
-                      </div>
-                      <div class="description-food-each">
-                        <p>
-                          Delicious vegetarian noodles with spiced chilli chicken made for a tantalizing meal. Perfect for an easy weeknight dinner or lunch.
-                        </p>
-                      </div>
-                    </div>
-                    <!-- each items  -->
-                    <div class="wrapUp-pic-name-description">
-                      <div class="picOfFood-each">
-                        <img src="images/m_image_10.png" alt="Delicious foods logo" />
-                      </div>
-                      <div class="food-name-each">
-                        <h2 class="food-name">VEG FRIED RICE WITH CHILLI PANEER</h2>
-                      </div>
-                      <div class="description-food-each">
-                        <p>
-                          Enjoy a fusion of flavors with veg fried rice and spicy chilli paneer. This satisfying meal is vegetarian-friendly and the best combo for lunch or dinner.
-                        </p>
-                      </div>
-                    </div>
-                    <!-- each items  -->
-                    <div class="wrapUp-pic-name-description">
-                      <div class="picOfFood-each">
-                        <img src="images/m_image_11.png" alt="Delicious foods logo" />
-                      </div>
-                      <div class="food-name-each">
-                        <h2 class="food-name">CHICKEN FRIED RICE WITH CHILLI CHICKEN</h2>
-                      </div>
-                      <div class="description-food-each">
-                        <p>
-                          Chicken fried rice with chili chicken, a delicious dish, combining tender pieces of chicken, fluffy rice, and savory seasonings. The spicy kick of the chili chicken adds an extra level of flavor, making it a satisfying and hearty meal.
-                        </p>
-                      </div>
-                    </div>
+                </div>
+                <!-- each items  -->
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_10.png"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">VEG FRIED RICE WITH CHILLI PANEER</h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Enjoy a fusion of flavors with veg fried rice and spicy
+                      chilli paneer. This satisfying meal is vegetarian-friendly
+                      and the best combo for lunch or dinner.
+                    </p>
+                  </div>
+                </div>
+                <!-- each items  -->
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_11.png"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">
+                      CHICKEN FRIED RICE WITH CHILLI CHICKEN
+                    </h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Chicken fried rice with chili chicken, a delicious dish,
+                      combining tender pieces of chicken, fluffy rice, and
+                      savory seasonings. The spicy kick of the chili chicken
+                      adds an extra level of flavor, making it a satisfying and
+                      hearty meal.
+                    </p>
                   </div>
                 </div>
               </div>
-                <div id="tab-2" class="tab-pane fade show p-0 ">
-                  <div class="menu-catagory-division">
-                    <!--  course details -->
-                    <div class="every-course-heading">
-                      <h3 class="big-fonts-catagory-name">Starters</h3>
-                      <p class="small-fonts-description-name">
-                        "Experience flavor in every bite with our starters"
-                      </p>
-                    </div>
-                    <!-- wrap up courses -->
-                    <div class="wrap-up-items">
-                      <!-- each items  -->
-                      <div class="wrapUp-pic-name-description">
-                        <div class="picOfFood-each">
-                          <img src="images/m_image.png" alt="Delicious foods logo" />
-                        </div>
-                        <div class="food-name-each">
-                          <h2 class="food-name">CRISPY CHILLI BABY CORN</h2>
-                        </div>
-                        <div class="description-food-each">
-                          <p>
-                            Fried chilli baby corn is a common Indo-Chinese fusion side and snack.It features sweet and tender pieces of baby corn, battered and fried to crispy perfection.This is one more vegan and vegetarian friendly snack, with an even spicier and brighter flavor.
-                          </p>
-                        </div>
-                      </div>
-                      <!-- each items  -->
-                      <div class="wrapUp-pic-name-description">
-                        <div class="picOfFood-each">
-                          <img src="images/m_image_01.png" alt="Delicious foods logo" />
-                        </div>
-                        <div class="food-name-each">
-                          <h2 class="food-name">CHILLI CHICKEN DRY</h2>
-                        </div>
-                        <div class="description-food-each">
-                          <p>
-                            Chilli chicken dry is a popular Indo-Chinese dish of diced crispy chicken in a spicy Chinese flavoured sauce. Succulent chicken coated in a batter and fried until crisp and then tossed in a garlicky chilli luscious sauce- one bite and you would definitely be reaching out for more.
-                          </p>
-                        </div>
-                      </div>
-                      <!-- each items  -->
-                      <div class="wrapUp-pic-name-description">
-                        <div class="picOfFood-each">
-                          <img src="images/m_image_02.png" alt="Delicious foods logo" />
-                        </div>
-                        <div class="food-name-each">
-                          <h2 class="food-name">CHILLI FISH DRY</h2>
-                        </div>
-                        <div class="description-food-each">
-                          <p>
-                            A delicious, tangy Indo-fusion dish, chilli fish is everything an appetizer or a side dish should be. It is crunchy, tasty, filling and full of aromatic flavours to have your taste buds tantalized. It can be relished simply as an appetizer or as a side with our fried rice or noodles.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="tab-3" class="tab-pane fade show p-0">
-                  <div class="menu-catagory-division">
-                    <!--  course details -->
-                    <div class="every-course-heading">
-                      <h3 class="big-fonts-catagory-name">Main course</h3>
-                      <p class="small-fonts-description-name">
-                        "Fill the heart of your dining experience with our various delicacies"
-                      </p>
-                    </div>
-                    <!-- wrap up courses -->
-                    <div class="wrap-up-items">
-                      <!-- each items  -->
-                      <div class="wrapUp-pic-name-description">
-                        <div class="picOfFood-each">
-                          <img src="images/m_image_04.png" class="food-pic" alt="Delicious foods logo" />
-                        </div>
-                        <div class="food-name-each">
-                          <h2 class="food-name">MIX FRIED RICE</h2>
-                        </div>
-                        <div class="description-food-each">
-                          <p>
-                            Highest grade rice grains fried with tenderly cut pieces of meat chunks along with the appetizing after taste of prawn and eggs. Authentic, delicious and ample, all in a single plate.
-                          </p>
-                        </div>
-                      </div>
-                      <!-- each items  -->
-                      <div class="wrapUp-pic-name-description">
-                        <div class="picOfFood-each">
-                          <img src="images/m_image_03_1.png" class="food-pic" alt="Delicious foods logo" />
-                        </div>
-                        <div class="food-name-each">
-                          <h2 class="food-name">VEG HAKKA NOODLES</h2>
-                        </div>
-                        <div class="description-food-each">
-                          <p>
-                            The pinnacle of noodles- hakka noodles are majorly popular because of their thick spongy nature, cooked by our experts with our inhouse ingredients. This meal is the epitome to satisfy your cravings.
-                          </p>
-                        </div>
-                      </div>
-                      <!-- each items  -->
-                      <div class="wrapUp-pic-name-description">
-                        <div class="picOfFood-each">
-                          <img src="images/m_image_05.png" class="food-pic" alt="Delicious foods logo" />
-                        </div>
-                        <div class="food-name-each">
-                          <h2 class="food-name">CHICKEN FRIED RICE</h2>
-                        </div>
-                        <div class="description-food-each">
-                          <p>
-                            Considered one of the most popular main courses in the entire Indian sub-Continent, chicken fried rice is made with tenderly cut chicken pieces fried and mixed with several veggies and served with fried rice, preparing the most optimal main course.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="tab-4" class="tab-pane fade show p-0">
-                  <div class="menu-catagory-division">
-                    <!--  course details -->
-                    <div class="every-course-heading">
-                      <h3 class="big-fonts-catagory-name">Side Dish</h3>
-                      <p class="small-fonts-description-name">
-                        "Add some zing to your meal with our sides"
-                      </p>
-                    </div>
-                    <!-- wrap up courses -->
-                    <div class="wrap-up-items">
-                      <!-- each items  -->
-                      <div class="wrapUp-pic-name-description">
-                        <div class="picOfFood-each">
-                          <img src="images/m_image_03.png" alt="Delicious foods logo" />
-                        </div>
-                        <div class="food-name-each">
-                          <h2 class="food-name">CHILLI PANEER GRAVY</h2>
-                        </div>
-                        <div class="description-food-each">
-                          <p>
-                            Cubes of crispy paneer with garlic, onions, green chilies, green bell peppers. tossed in soya sauce and home-made chilli sauce garnished with spring onions.
-                          </p>
-                        </div>
-                      </div>
-                      <!-- each items  -->
-                      <div class="wrapUp-pic-name-description">
-                        <div class="picOfFood-each">
-                          <img src="images/m_image_07.png" alt="Delicious foods logo" />
-                        </div>
-                        <div class="food-name-each">
-                          <h2 class="food-name">VEG MANCHURIAN GRAVY</h2>
-                        </div>
-                        <div class="description-food-each">
-                          <p>
-                            Seasoned soft vegetable pops battered deep fried and sautéed in dark soya, chilli and tomato sauce garnished with shredded cabbage, carrots and spring onions.
-                          </p>
-                        </div>
-                      </div>
-                      <!-- each items  -->
-                      <div class="wrapUp-pic-name-description">
-                        <div class="picOfFood-each">
-                          <img src="images/m_image_08.png" alt="Delicious foods logo" />
-                        </div>
-                        <div class="food-name-each">
-                          <h2 class="food-name">CHILLI CHICKEN GRAVY</h2>
-                        </div>
-                        <div class="description-food-each">
-                          <p>
-                            Batter coated deep fried chicken cubes with garlic, onions, chillis and green bell peppers tossed in soya sauce and home-made chilli sauce garnished with spring onions.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="tab-5" class="tab-pane fade show p-0">
-                  <div class="menu-catagory-division">
-                    <!--  course details -->
-                    <div class="every-course-heading">
-                      <h3 class="big-fonts-catagory-name">The Combo</h3>
-                      <p class="small-fonts-description-name">
-                        "Satisfy your cravings with our delicious combo meals"
-                      </p>
-                    </div>
-                    <!-- wrap up courses -->
-                    <div class="wrap-up-items">
-                      <!-- each items  -->
-                      <div class="wrapUp-pic-name-description">
-                        <div class="picOfFood-each">
-                          <img src="images/m_image_09.png" alt="Delicious foods logo" />
-                        </div>
-                        <div class="food-name-each">
-                          <h2 class="food-name">VEG NOODLES WITH CHILLI CHICKEN</h2>
-                        </div>
-                        <div class="description-food-each">
-                          <p>
-                            Delicious vegetarian noodles with spiced chilli chicken made for a tantalizing meal. Perfect for an easy weeknight dinner or lunch.
-                          </p>
-                        </div>
-                      </div>
-                      <!-- each items  -->
-                      <div class="wrapUp-pic-name-description">
-                        <div class="picOfFood-each">
-                          <img src="images/m_image_10.png" alt="Delicious foods logo" />
-                        </div>
-                        <div class="food-name-each">
-                          <h2 class="food-name">VEG FRIED RICE WITH CHILLI PANEER</h2>
-                        </div>
-                        <div class="description-food-each">
-                          <p>
-                            Enjoy a fusion of flavors with veg fried rice and spicy chilli paneer. This satisfying meal is vegetarian-friendly and the best combo for lunch or dinner.
-                          </p>
-                        </div>
-                      </div>
-                      <!-- each items  -->
-                      <div class="wrapUp-pic-name-description">
-                        <div class="picOfFood-each">
-                          <img src="images/m_image_11.png" alt="Delicious foods logo" />
-                        </div>
-                        <div class="food-name-each">
-                          <h2 class="food-name">CHICKEN FRIED RICE WITH CHILLI CHICKEN</h2>
-                        </div>
-                        <div class="description-food-each">
-                          <p>
-                            Chicken fried rice with chili chicken, a delicious dish, combining tender pieces of chicken, fluffy rice, and savory seasonings. The spicy kick of the chili chicken adds an extra level of flavor, making it a satisfying and hearty meal.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
             </div>
-        </div>
-    </div>
-</div>
-
- 
-    
-
-    
-
-    
-
-    
-
-   
-
-    <!--  for qr code -->
-    <div id="Qr-code-director">
-      <a target="_blank"
-        href="https://www.swiggy.com/restaurants/flame-n-wok-south-dumdum-lake-town-kolkata-698786"><img class="qr_img"
-          src="images/img_qr1.jpg" height="10%" width="10%" class="img_qr" /></a>
-      <a target="_blank" href="https://www.zomato.com/kolkata/flame-n-wok-lake-town/order"><img class="qr_img"
-          src="images/img_qr2.jpg" height="10%" width="10%" /></a>
-      <br />
-      <a class="btn btn-warning" target="_blank"
-        href="https://www.swiggy.com/restaurants/flame-n-wok-south-dumdum-lake-town-kolkata-698786" role="button">Order
-        on Swiggy</a>
-      <a class="btn btn-danger" target="_blank" href="https://www.zomato.com/kolkata/flame-n-wok-lake-town/order"
-        role="button">Order on Zomato</a>
-
-    </div>
-  </main>
-
-  <!-- Footer -->
-  <div class="last-footer-div">
-    <footer class="last-footer">
-      <div class="footer-into-content-wrap">
-        <div class="footer-wrap-logo-webName">
-          <div class="footer-social-media-handle">
-            <a target="_blank" href="https://www.facebook.com/flamenwokkolkata/" class="fa"><img src="./images/fb.png"
-                alt="" height="40px" /></a>
-            <a target="_blank" href="https://www.instagram.com/flamenwokkolkata/" class="fa"><img src="./images/ig.png"
-                alt="" height="45px" /></a>
           </div>
-          <a class="privacy" target="_blank"
-            href="https://www.privacypolicyonline.com/live.php?token=PIlayNtPNOLQFtfBiBbsWaClycoC64px">Privacy
-            Policy</a>
-          <div class="footer-webpage-name">
-            <p>Flame N Wok</p>
-            <p>LAKE TOWN, CALCUTTA, WEST BENGAL, INDIA</p>
-            <a class="no" href="tel:8910750760">Call Now: 8910750760</a>
+          <div id="tab-2" class="tab-pane fade show p-0">
+            <div class="menu-catagory-division">
+              <!--  course details -->
+              <div class="every-course-heading">
+                <h3 class="big-fonts-catagory-name">Starters</h3>
+                <p class="small-fonts-description-name">
+                  "Experience flavor in every bite with our starters"
+                </p>
+              </div>
+              <!-- wrap up courses -->
+              <div class="wrap-up-items">
+                <!-- each items  -->
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img src="images/m_image.png" alt="Delicious foods logo" />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">CRISPY CHILLI BABY CORN</h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Fried chilli baby corn is a common Indo-Chinese fusion
+                      side and snack.It features sweet and tender pieces of baby
+                      corn, battered and fried to crispy perfection.This is one
+                      more vegan and vegetarian friendly snack, with an even
+                      spicier and brighter flavor.
+                    </p>
+                  </div>
+                </div>
+                <!-- each items  -->
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_01.png"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">CHILLI CHICKEN DRY</h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Chilli chicken dry is a popular Indo-Chinese dish of diced
+                      crispy chicken in a spicy Chinese flavoured sauce.
+                      Succulent chicken coated in a batter and fried until crisp
+                      and then tossed in a garlicky chilli luscious sauce- one
+                      bite and you would definitely be reaching out for more.
+                    </p>
+                  </div>
+                </div>
+                <!-- each items  -->
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_02.png"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">CHILLI FISH DRY</h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      A delicious, tangy Indo-fusion dish, chilli fish is
+                      everything an appetizer or a side dish should be. It is
+                      crunchy, tasty, filling and full of aromatic flavours to
+                      have your taste buds tantalized. It can be relished simply
+                      as an appetizer or as a side with our fried rice or
+                      noodles.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="footer-copywrite-claim">
-          <p>COPYRIGHT © 2023 FLAME N WOK - ALL RIGHTS RESERVED.</p>
+          <div id="tab-3" class="tab-pane fade show p-0">
+            <div class="menu-catagory-division">
+              <!--  course details -->
+              <div class="every-course-heading">
+                <h3 class="big-fonts-catagory-name">Main course</h3>
+                <p class="small-fonts-description-name">
+                  "Fill the heart of your dining experience with our various
+                  delicacies"
+                </p>
+              </div>
+              <!-- wrap up courses -->
+              <div class="wrap-up-items">
+                <!-- each items  -->
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_04.png"
+                      class="food-pic"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">MIX FRIED RICE</h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Highest grade rice grains fried with tenderly cut pieces
+                      of meat chunks along with the appetizing after taste of
+                      prawn and eggs. Authentic, delicious and ample, all in a
+                      single plate.
+                    </p>
+                  </div>
+                </div>
+                <!-- each items  -->
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_03_1.png"
+                      class="food-pic"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">VEG FRIED RICE</h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      The pinnacle of noodles- hakka noodles are majorly popular
+                      because of their thick spongy nature, cooked by our
+                      experts with our inhouse ingredients. This meal is the
+                      epitome to satisfy your cravings.
+                    </p>
+                  </div>
+                </div>
+                <!-- each items  -->
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_05.png"
+                      class="food-pic"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">CHICKEN FRIED RICE</h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Considered one of the most popular main courses in the
+                      entire Indian sub-Continent, chicken fried rice is made
+                      with tenderly cut chicken pieces fried and mixed with
+                      several veggies and served with fried rice, preparing the
+                      most optimal main course.
+                    </p>
+                  </div>
+                </div>
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_05.png"
+                      class="food-pic"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">CHICKEN GRAVEY NOODLES</h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Considered one of the most popular main courses in the
+                      entire Indian sub-Continent, chicken fried rice is made
+                      with tenderly cut chicken pieces fried and mixed with
+                      several veggies and served with fried rice, preparing the
+                      most optimal main course.
+                    </p>
+                  </div>
+                </div>
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_05.png"
+                      class="food-pic"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">CHICKEN HAKKA NOODLES</h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Considered one of the most popular main courses in the
+                      entire Indian sub-Continent, chicken fried rice is made
+                      with tenderly cut chicken pieces fried and mixed with
+                      several veggies and served with fried rice, preparing the
+                      most optimal main course.
+                    </p>
+                  </div>
+                </div>
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_05.png"
+                      class="food-pic"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">MIX HAKKA NOODLES</h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Considered one of the most popular main courses in the
+                      entire Indian sub-Continent, chicken fried rice is made
+                      with tenderly cut chicken pieces fried and mixed with
+                      several veggies and served with fried rice, preparing the
+                      most optimal main course.
+                    </p>
+                  </div>
+                </div>
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_05.png"
+                      class="food-pic"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">VEG GRAVEY NOODLES</h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Considered one of the most popular main courses in the
+                      entire Indian sub-Continent, chicken fried rice is made
+                      with tenderly cut chicken pieces fried and mixed with
+                      several veggies and served with fried rice, preparing the
+                      most optimal main course.
+                    </p>
+                  </div>
+                </div>
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_05.png"
+                      class="food-pic"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">VEG HAKKA NOODLES</h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Considered one of the most popular main courses in the
+                      entire Indian sub-Continent, chicken fried rice is made
+                      with tenderly cut chicken pieces fried and mixed with
+                      several veggies and served with fried rice, preparing the
+                      most optimal main course.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="tab-4" class="tab-pane fade show p-0">
+            <div class="menu-catagory-division">
+              <!--  course details -->
+              <div class="every-course-heading">
+                <h3 class="big-fonts-catagory-name">Side Dish</h3>
+                <p class="small-fonts-description-name">
+                  "Add some zing to your meal with our sides"
+                </p>
+              </div>
+              <!-- wrap up courses -->
+              <div class="wrap-up-items">
+                <!-- each items  -->
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_03.png"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">CHILLI PANEER GRAVY</h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Cubes of crispy paneer with garlic, onions, green chilies,
+                      green bell peppers. tossed in soya sauce and home-made
+                      chilli sauce garnished with spring onions.
+                    </p>
+                  </div>
+                </div>
+                <!-- each items  -->
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_07.png"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">VEG MANCHURIAN GRAVY</h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Seasoned soft vegetable pops battered deep fried and
+                      sautéed in dark soya, chilli and tomato sauce garnished
+                      with shredded cabbage, carrots and spring onions.
+                    </p>
+                  </div>
+                </div>
+                <!-- each items  -->
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_08.png"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">CHILLI CHICKEN GRAVY</h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Batter coated deep fried chicken cubes with garlic,
+                      onions, chillis and green bell peppers tossed in soya
+                      sauce and home-made chilli sauce garnished with spring
+                      onions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="tab-5" class="tab-pane fade show p-0">
+            <div class="menu-catagory-division">
+              <!--  course details -->
+              <div class="every-course-heading">
+                <h3 class="big-fonts-catagory-name">The Combo</h3>
+                <p class="small-fonts-description-name">
+                  "Satisfy your cravings with our delicious combo meals"
+                </p>
+              </div>
+              <!-- wrap up courses -->
+              <div class="wrap-up-items">
+                <!-- each items  -->
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_09.png"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">VEG NOODLES WITH CHILLI CHICKEN</h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Delicious vegetarian noodles with spiced chilli chicken
+                      made for a tantalizing meal. Perfect for an easy weeknight
+                      dinner or lunch.
+                    </p>
+                  </div>
+                </div>
+                <!-- each items  -->
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_10.png"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">VEG FRIED RICE WITH CHILLI PANEER</h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Enjoy a fusion of flavors with veg fried rice and spicy
+                      chilli paneer. This satisfying meal is vegetarian-friendly
+                      and the best combo for lunch or dinner.
+                    </p>
+                  </div>
+                </div>
+                <!-- each items  -->
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_11.png"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">
+                      CHICKEN FRIED RICE WITH CHILLI CHICKEN
+                    </h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Chicken fried rice with chili chicken, a delicious dish,
+                      combining tender pieces of chicken, fluffy rice, and
+                      savory seasonings. The spicy kick of the chili chicken
+                      adds an extra level of flavor, making it a satisfying and
+                      hearty meal.
+                    </p>
+                  </div>
+                </div>
+                <!-- each items  -->
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_11.png"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">
+                      CHICKEN FRIED RICE WITH CHILLI CHICKEN
+                    </h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Chicken fried rice with chili chicken, a delicious dish,
+                      combining tender pieces of chicken, fluffy rice, and
+                      savory seasonings. The spicy kick of the chili chicken
+                      adds an extra level of flavor, making it a satisfying and
+                      hearty meal.
+                    </p>
+                  </div>
+                </div>
+                <!-- each items  -->
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_11.png"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">
+                      CHICKEN FRIED RICE WITH CHILLI CHICKEN
+                    </h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Chicken fried rice with chili chicken, a delicious dish,
+                      combining tender pieces of chicken, fluffy rice, and
+                      savory seasonings. The spicy kick of the chili chicken
+                      adds an extra level of flavor, making it a satisfying and
+                      hearty meal.
+                    </p>
+                  </div>
+                </div>
+                <!-- each items  -->
+                <div class="wrapUp-pic-name-description">
+                  <div class="picOfFood-each">
+                    <img
+                      src="images/m_image_11.png"
+                      alt="Delicious foods logo"
+                    />
+                  </div>
+                  <div class="food-name-each">
+                    <h2 class="food-name">
+                      CHICKEN FRIED RICE WITH CHILLI CHICKEN
+                    </h2>
+                  </div>
+                  <div class="description-food-each">
+                    <p>
+                      Chicken fried rice with chili chicken, a delicious dish,
+                      combining tender pieces of chicken, fluffy rice, and
+                      savory seasonings. The spicy kick of the chili chicken
+                      adds an extra level of flavor, making it a satisfying and
+                      hearty meal.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </footer>
-  </div>
-</body>
 
+      <!--  for qr code -->
+      <div id="Qr-code-director">
+        <a
+          target="_blank"
+          href="https://www.swiggy.com/restaurants/flame-n-wok-south-dumdum-lake-town-kolkata-698786"
+          ><img
+            class="qr_img"
+            src="images/img_qr1.jpg"
+            height="10%"
+            width="10%"
+            class="img_qr"
+        /></a>
+        <a
+          target="_blank"
+          href="https://www.zomato.com/kolkata/flame-n-wok-lake-town/order"
+          ><img
+            class="qr_img"
+            src="images/img_qr2.jpg"
+            height="10%"
+            width="10%"
+        /></a>
+        <br />
+        <a
+          class="btn btn-warning"
+          target="_blank"
+          href="https://www.swiggy.com/restaurants/flame-n-wok-south-dumdum-lake-town-kolkata-698786"
+          role="button"
+          >Order on Swiggy</a
+        >
+        <a
+          class="btn btn-danger"
+          target="_blank"
+          href="https://www.zomato.com/kolkata/flame-n-wok-lake-town/order"
+          role="button"
+          >Order on Zomato</a
+        >
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <div class="last-footer-div">
+      <footer class="last-footer">
+        <div class="footer-into-content-wrap">
+          <div class="footer-wrap-logo-webName">
+            <div class="footer-social-media-handle">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/flamenwokkolkata/"
+                class="fa"
+                ><img src="./images/fb.png" alt="" height="40px"
+              /></a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/flamenwokkolkata/"
+                class="fa"
+                ><img src="./images/ig.png" alt="" height="45px"
+              /></a>
+            </div>
+            <a
+              class="privacy"
+              target="_blank"
+              href="https://www.privacypolicyonline.com/live.php?token=PIlayNtPNOLQFtfBiBbsWaClycoC64px"
+              >Privacy Policy</a
+            >
+            <div class="footer-webpage-name">
+              <p>Flame N Wok</p>
+              <p>LAKE TOWN, CALCUTTA, WEST BENGAL, INDIA</p>
+              <a class="no" href="tel:8910750760">Call Now: 8910750760</a>
+            </div>
+          </div>
+          <div class="footer-copywrite-claim">
+            <p>COPYRIGHT © 2023 FLAME N WOK - ALL RIGHTS RESERVED.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
