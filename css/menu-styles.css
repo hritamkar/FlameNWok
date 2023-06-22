@@ -4,6 +4,11 @@ body {
   font-family: "Comfortaa", cursive;
   /* background-color: #e6e6e6; */
 }
+.nav-food{
+  display:flex;flex-wrap:wrap;padding-left:0;margin-bottom:0;list-style:none;
+  justify-content: center;
+
+}
 .navbar {
   background: linear-gradient(84deg, #ffffff, #ffebbf);
 }
@@ -11,7 +16,16 @@ body {
   height: 70px;
   width: 70px;
 }
+.nav-pills .nav-item .active {
+  border-bottom: 2px solid var( #FEA116);
+  text-decoration: none;
 
+}
+.text-body1{
+  color: #FEA116;
+  font-weight: 700;
+  font-size: 25px;
+}
 .main-menu-area {
   text-align: center;
   margin-top: 2%;
