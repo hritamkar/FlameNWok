@@ -4,10 +4,13 @@ body {
   font-family: "Comfortaa", cursive;
   /* background-color: #e6e6e6; */
 }
-.nav-food{
-  display:flex;flex-wrap:wrap;padding-left:0;margin-bottom:0;list-style:none;
+.nav-food {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
   justify-content: center;
-
 }
 .navbar {
   background: linear-gradient(84deg, #ffffff, #ffebbf);
@@ -17,18 +20,18 @@ body {
   width: 70px;
 }
 .nav-pills .nav-item1 .active {
-  border-bottom: 2px solid var( #fea116);
+  border-bottom: 2px solid var(#fea116);
   text-decoration: none;
-
 }
-h6{
+h6 {
   color: #fea116;
   font-weight: 700;
   font-size: 25px;
 }
 .main-menu-area {
   text-align: center;
-  margin-top: 2%;
+  width: 95%;
+  margin: 6.2% auto;
 }
 
 .wrapUp-pic-name-description {
@@ -41,8 +44,8 @@ h6{
 }
 
 .wrapUp-pic-name-description:hover {
-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-transition: 0.3s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
 }
 
 #main-menu-big-text {
@@ -62,12 +65,14 @@ transition: 0.3s;
 }
 
 .wrap-up-items {
-  margin: auto 3% auto 3%;
   display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
 }
-.wrap-up-items {
+/* .wrap-up-items {
   margin: auto 3%;
-}
+} */
 
 .food-name {
   font-size: 1.5rem;
@@ -130,7 +135,7 @@ av-item :hover {
 .food-name-each {
   margin-top: 10px;
 }
-.description-food-each{
+.description-food-each {
   text-align: justify;
   box-shadow: 0 -5px 5px -5px #d4d3d3;
 }
@@ -229,4 +234,9 @@ a.fa {
   .qr_img {
     display: none;
   }
+}
+
+.tab-pane {
+  width: 100%;
+  /* margin: 0 auto; */
 }
