@@ -158,6 +158,9 @@ body {
     margin-left: 0%;
     margin-top: 25px;
   }
+  .p{
+    margin-bottom: -2rem;
+  }
 }
 
 .btn {
