@@ -56,31 +56,110 @@ body {
   margin: auto auto 5%;
   font-family: "Comfortaa", cursive;
 }
+.featured-dish-details h4{
+  margin: 10px 0px 10px 0px;
+  font-size: xx-large;
+}
+.main-about-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3%;
+}
+.block {
+  display: flex;
 
-.abt-us-text{
-  margin-bottom: 3%;
+  flex-direction: row;
+  
+  align-items: center;
+  justify-content: space-around;
+  margin: 25px 0;
 }
-.about-us-text-area {
-  width: 60%;
-  margin: auto;
+#about-element-01 {
+  background-image: url(/PICS/AB_1.jpg);
+}
+#about-element-05 {
+  background-image: url(/PICS/AB_2.jpg);
+}
+.float-pic-left {
+  width: 40%;
+  height: 250px;
+  transition: transform .2s;
+} 
+.float-pic-left:hover{
+  transform: scale(1.1);
+}
+.float-info-right {
+  width: 50%;
+}
+#about-element-04 {
+  background-image: url(/PICS/AB_3.jpg);
+  width: 42%;
+  height: 250px;
+  transition: transform .2s;
+}
+#about-element-04:hover{
+  transform: scale(1.1);
+}
+#about-element-03 {
+  width: 50%;
 }
 
-.about-us-text-box {
-  margin-top: 20%;
+.big-font {
+  font-size: 20px;
+  text-align: center;
 }
 
-.img2 {
-  float: left;
-  margin-right: 75px;
+@media screen and (max-width: 480px) {
+  .head h3 {
+    font-size: 40px;
+  }
+  .head {
+    width: 80%;
+  }
+  .body {
+    font-size: 17px;
+    width: 80%;
+    height: 200px;
+  }
+  .main-about-div {
+    height: 1800px;
+    text-align: center;
+    width: 100%;
+    margin-top: -100px;
+  }
+
+  .block {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    margin: 25px 0;
+  }
+
+  .float-pic-left {
+    width: 100%;
+    height: 250px;
+  }
+  .float-info-right {
+    width: 100%;
+    margin-top: 25px;
+  }
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #about-element-04 {
+    width: 100%;
+    height: 250px;
+  }
+
+  #about-element-03 {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 25px;
+  }
 }
-.img3 {
-  float: right;
-  margin-left: 75px;
-}
-.img4 {
-  float: left;
-  margin-right: 75px;
-}
+
 .btn {
   margin: auto 1% auto 1%;
 }
