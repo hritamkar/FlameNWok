@@ -76,10 +76,10 @@ body {
   margin: 25px 0;
 }
 #about-element-01 {
-  background-image: url(PICS/AB_1.jpg);
+  background-image: url(../PICS/AB_1.jpg);
 }
 #about-element-05 {
-  background-image: url(PICS/AB_2.jpg);
+  background-image: url(../PICS/AB_2.jpg);
 }
 .float-pic-left {
   width: 40%;
@@ -93,7 +93,7 @@ body {
   width: 50%;
 }
 #about-element-04 {
-  background-image: url(PICS/AB_3.jpg);
+  background-image: url(../PICS/AB_3.jpg);
   width: 42%;
   height: 250px;
   transition: transform .2s;
