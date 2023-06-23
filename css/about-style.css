@@ -70,8 +70,8 @@ body {
   background-position: center;
   background-color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.347), rgba(0, 0, 0, 0.1)),
-    /* url(../images/Chinese-restaurants.jpg); */
-    url(/PICS/HI.jpg);
+    /* url(../images/Chinese-restaurants.JPG); */
+    url(/PICS/HI.JPG);
 }
 .sp {
   height: 100px;
@@ -126,10 +126,10 @@ body {
 }
 
 #about-element-01 {
-  background-image: url(/PICS/AB_1.jpg);
+  background-image: url(/PICS/AB_1.JPG);
 }
 #about-element-05 {
-  background-image: url(/PICS/AB_2.jpg);
+  background-image: url(/PICS/AB_2.JPG);
 }
 
 .float-pic-left {
@@ -145,7 +145,7 @@ body {
 }
 
 #about-element-04 {
-  background-image: url(/PICS/AB_3.jpg);
+  background-image: url(/PICS/AB_3.JPG);
   width: 42%;
   height: 250px;
   transition: transform .2s;
