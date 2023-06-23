@@ -70,7 +70,8 @@ body {
   background-position: center;
   background-color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.347), rgba(0, 0, 0, 0.1)),
-    url(../images/Chinese-restaurants.jpg);
+    /* url(../images/Chinese-restaurants.jpg); */
+    url(/PICS/HI.jpg);
 }
 .sp {
   height: 100px;
@@ -110,49 +111,43 @@ body {
 .main-about-div {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  height: 1000px;
-  width: 100%;
-  padding: 0 5%;
+  padding: 0 3%;
 }
 
 .block {
   display: flex;
+
+  flex-direction: row;
+  
   align-items: center;
   justify-content: space-around;
   margin: 25px 0;
 }
 
 #about-element-01 {
-  background-image: url(../images/img_1.png);
+  background-image: url(/PICS/AB_1.jpg);
 }
-
 #about-element-05 {
-  background-image: url(../images/img_3.png);
+  background-image: url(/PICS/AB_2.jpg);
 }
 
 .float-pic-left {
-  width: 34%;
+  width: 40%;
   height: 250px;
-  float: left;
   transition: transform .2s;
 } 
-
 .float-pic-left:hover{
   transform: scale(1.1);
 }
 .float-info-right {
-  width: 55%;
-  float: right;
+  width: 50%;
 }
 
 #about-element-04 {
-  width: 45%;
+  background-image: url(/PICS/AB_3.jpg);
+  width: 42%;
   height: 250px;
-  background-image: url(../images/img_2.png);
-  float: right;
-  margin-right: -3%;
   transition: transform .2s;
 }
 #about-element-04:hover{
@@ -161,9 +156,7 @@ body {
 
 
 #about-element-03 {
-  width: 60%;
-  float: left;
-  margin-left: -14%;
+  width: 50%;
 }
 
 .big-font {
@@ -300,7 +293,7 @@ a{
 .footer-social-media-handle{
       margin-bottom: 1%;
 
-}
+}}
 /*-----------------------------------------------------------*/
 
 /* scroll bar */
