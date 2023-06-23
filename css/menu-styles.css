@@ -234,12 +234,16 @@ a.fa {
   .qr_img {
     display: none;
   }
+  .menu-top{
+    margin-top: 75px;
+  }
+  h6{
+    font-size: 17px;
+    /* margin-bottom: 2px; */
+  }
 }
 
 .tab-pane {
   width: 100%;
   /* margin: 0 auto; */
-}
-.mb-5{
-    margin-top: 10%;
 }
