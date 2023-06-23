@@ -5,10 +5,10 @@ body {
 }
 .back-video {
   width: 100%;
-  z-index: -1 ;
+  z-index: -1;
 }
 
-.home-top-area{
+.home-top-area {
   /* position: relative;
   bottom: 500px; */
   position: absolute;
@@ -58,7 +58,7 @@ body {
   margin: 50px auto 5%;
   font-family: "Comfortaa", cursive;
 }
-.featured-dish-details h4{
+.featured-dish-details h4 {
   margin: 10px 0px 10px 0px;
   font-size: xx-large;
 }
@@ -72,23 +72,25 @@ body {
   display: flex;
 
   flex-direction: row;
-  
+
   align-items: center;
   justify-content: space-around;
   margin: 25px 0;
 }
 #about-element-01 {
   background-image: url(../PICS/AB_1.jpg);
+  box-shadow: 2px 2px 16px black;
 }
 #about-element-05 {
   background-image: url(../PICS/AB_2.jpg);
+  box-shadow: 2px 2px 16px black;
 }
 .float-pic-left {
   width: 40%;
   height: 250px;
-  transition: transform .2s;
-} 
-.float-pic-left:hover{
+  transition: transform 0.2s;
+}
+.float-pic-left:hover {
   transform: scale(1.1);
 }
 .float-info-right {
@@ -98,9 +100,10 @@ body {
   background-image: url(../PICS/AB_3.jpg);
   width: 42%;
   height: 250px;
-  transition: transform .2s;
+  transition: transform 0.2s;
+  box-shadow: 2px 2px 16px black;
 }
-#about-element-04:hover{
+#about-element-04:hover {
   transform: scale(1.1);
 }
 #about-element-03 {
@@ -157,8 +160,9 @@ body {
     margin-left: 0%;
     margin-top: 25px;
   }
-  .featured-dish-details p{
+  .featured-dish-details p {
     margin-bottom: 6rem;
+    text-align: justify;
   }
 }
 
@@ -175,11 +179,11 @@ body {
   text-align: center;
 }
 
-.screenshot{
+.screenshot {
   height: 30vw;
 }
 
-.img-cont{
+.img-cont {
   margin: 2% 5% auto;
 }
 
@@ -238,18 +242,24 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-  .back-video{
+  .back-video {
     margin-top: 25%;
     width: 100vw;
   }
-  .text{
+  .text {
     font-size: 30px;
     margin: auto;
     color: #000;
     margin-bottom: 5%;
   }
-  .home-top-area{
+  .home-top-area {
     position: static;
     margin-bottom: 7%;
+  }
+  .last-footer-div {
+    font-size: 0.8rem;
+  }
+  .footer-webpage-name a {
+    font-weight: 800;
   }
 }
