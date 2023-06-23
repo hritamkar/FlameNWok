@@ -71,7 +71,7 @@ body {
   background-color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.347), rgba(0, 0, 0, 0.1)),
     /* url(../images/Chinese-restaurants.JPG); */
-    url(/PICS/HI.JPG);
+    url(PICS/HI.JPG);
 }
 .sp {
   height: 100px;
